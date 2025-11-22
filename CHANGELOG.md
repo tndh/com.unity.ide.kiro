@@ -1,11 +1,14 @@
-# Code Editor Package for Visual Studio
+# Code Editor Package for Kiro
 
-## [2.0.22] - 2023-10-03
+## [1.0.0] - 2025-11-22
 
 Integration:
 
-- Add support for `XDG_DATA_DIRS` and `.desktop` files on Linux for `VS Code` discovery.
-- Use compile-time platform-specifics instead of using runtime conditions.
+- Initial release with Kiro editor support.
+- Adapted from Visual Studio Code integration.
+- Support for Windows, macOS, and Linux platforms.
+- Auto-discovery of Kiro installations.
+- Project generation with IntelliSense support.
 
 Project generation:
 

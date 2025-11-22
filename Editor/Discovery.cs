@@ -13,9 +13,7 @@ namespace Microsoft.Unity.VisualStudio.Editor
 	{
 		public static IEnumerable<IVisualStudioInstallation> GetVisualStudioInstallations()
 		{
-			foreach (var installation in VisualStudioWindsurfInstallation.GetVisualStudioInstallations())
-				yield return installation;
-			foreach (var installation in VisualStudioCodiumInstallation.GetVisualStudioInstallations())
+			foreach (var installation in VisualStudioKiroInstallation.GetVisualStudioInstallations())
 				yield return installation;
 		}
 
@@ -23,9 +21,7 @@ namespace Microsoft.Unity.VisualStudio.Editor
 		{
 			try
 			{
-				if (VisualStudioWindsurfInstallation.TryDiscoverInstallation(editorPath, out installation))
-					return true;
-				if (VisualStudioCodiumInstallation.TryDiscoverInstallation(editorPath, out installation))
+				if (VisualStudioKiroInstallation.TryDiscoverInstallation(editorPath, out installation))
 					return true;
 			}
 			catch (IOException)
@@ -38,8 +34,7 @@ namespace Microsoft.Unity.VisualStudio.Editor
 
 		public static void Initialize()
 		{
-            VisualStudioWindsurfInstallation.Initialize();
-            VisualStudioCodiumInstallation.Initialize();
+            VisualStudioKiroInstallation.Initialize();
 		}
 	}
 }
