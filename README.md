@@ -17,7 +17,7 @@ Plugin tích hợp Kiro Editor với Unity, hỗ trợ IntelliSense, debugging v
 
 1. Mở Unity → **Window** → **Package Manager**
 2. Click **"+"** → **"Add package from git URL..."**
-3. Nhập: `https://github.com/YOUR_USERNAME/com.unity.ide.kiro.git`
+3. Nhập: `https://github.com/tndh/com.unity.ide.kiro.git`
 4. Click **"Add"**
 5. Chọn editor trong **Edit** → **Preferences** → **External Tools**
 
