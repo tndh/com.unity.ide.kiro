@@ -32,7 +32,6 @@ Sau khi cài đặt:
 3. Click **"Regenerate project files"**
 
 ![Package Add](PackageImage.png)
-![Script Editor Setting](SettingImage.webp)
 
 ## Yêu cầu
 
